@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  Login</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 01 14:34:21 CET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>151 seconds (151125 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='loginFeature.IncorrectPassword.IncorrectLogin()'><b>IncorrectLogin</b><br>Test class: loginFeature.IncorrectPassword</td>
+<td></td>
+<td>3</td>
+<td>loginFeature.IncorrectPassword@1d2adfbe</td></tr>
+<tr>
+<td title='loginFeature.IncorrectEmail.IncorrectLogin()'><b>IncorrectLogin</b><br>Test class: loginFeature.IncorrectEmail</td>
+<td></td>
+<td>3</td>
+<td>loginFeature.IncorrectEmail@36902638</td></tr>
+<tr>
+<td title='registration.CorrectRegister.UserFillsTheFormToRegister()'><b>UserFillsTheFormToRegister</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>4</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='registration.CorrectRegister.assertWindowTitle()'><b>assertWindowTitle</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>5</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='megaMenu.Menu.checkCoursesMenu()'><b>checkCoursesMenu</b><br>Test class: megaMenu.Menu</td>
+<td></td>
+<td>3</td>
+<td>megaMenu.Menu@564fabc8</td></tr>
+<tr>
+<td title='megaMenu.Menu.checkMegaMenu()'><b>checkMegaMenu</b><br>Test class: megaMenu.Menu</td>
+<td></td>
+<td>0</td>
+<td>megaMenu.Menu@564fabc8</td></tr>
+<tr>
+<td title='megaMenu.Menu.checkSubMenuTeflCertifications()'><b>checkSubMenuTeflCertifications</b><br>Test class: megaMenu.Menu</td>
+<td></td>
+<td>3</td>
+<td>megaMenu.Menu@564fabc8</td></tr>
+<tr>
+<td title='megaMenu.Menu.checkTeflMenu()'><b>checkTeflMenu</b><br>Test class: megaMenu.Menu</td>
+<td></td>
+<td>0</td>
+<td>megaMenu.Menu@564fabc8</td></tr>
+<tr>
+<td title='loginFeature.CorrectLogin.correctLogin()'><b>correctLogin</b><br>Test class: loginFeature.CorrectLogin</td>
+<td></td>
+<td>2</td>
+<td>loginFeature.CorrectLogin@49ec71f8</td></tr>
+<tr>
+<td title='registration.CorrectRegister.education()'><b>education</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>1</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='megaMenu.Menu.eleminateCookies()'><b>eleminateCookies</b><br>Test class: megaMenu.Menu</td>
+<td></td>
+<td>4</td>
+<td>megaMenu.Menu@564fabc8</td></tr>
+<tr>
+<td title='loginFeature.CorrectLogin.eleminateCookies()'><b>eleminateCookies</b><br>Test class: loginFeature.CorrectLogin</td>
+<td></td>
+<td>4</td>
+<td>loginFeature.CorrectLogin@49ec71f8</td></tr>
+<tr>
+<td title='loginFeature.IncorrectEmail.eleminateCookies()'><b>eleminateCookies</b><br>Test class: loginFeature.IncorrectEmail</td>
+<td></td>
+<td>4</td>
+<td>loginFeature.IncorrectEmail@36902638</td></tr>
+<tr>
+<td title='loginFeature.IncorrectPassword.eleminateCookies1()'><b>eleminateCookies1</b><br>Test class: loginFeature.IncorrectPassword</td>
+<td></td>
+<td>4</td>
+<td>loginFeature.IncorrectPassword@1d2adfbe</td></tr>
+<tr>
+<td title='registration.CorrectRegister.experience()'><b>experience</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>1</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='loginFeature.IncorrectPassword.getError()'><b>getError</b><br>Test class: loginFeature.IncorrectPassword</td>
+<td></td>
+<td>1</td>
+<td>loginFeature.IncorrectPassword@1d2adfbe</td></tr>
+<tr>
+<td title='loginFeature.IncorrectEmail.getError()'><b>getError</b><br>Test class: loginFeature.IncorrectEmail</td>
+<td></td>
+<td>1</td>
+<td>loginFeature.IncorrectEmail@36902638</td></tr>
+<tr>
+<td title='loginFeature.CorrectLogin.logOut()'><b>logOut</b><br>Test class: loginFeature.CorrectLogin</td>
+<td></td>
+<td>15</td>
+<td>loginFeature.CorrectLogin@49ec71f8</td></tr>
+<tr>
+<td title='megaMenu.Menu.quitDriver()'><b>quitDriver</b><br>Test class: megaMenu.Menu</td>
+<td></td>
+<td>0</td>
+<td>megaMenu.Menu@564fabc8</td></tr>
+<tr>
+<td title='registration.CorrectRegister.quitDriver()'><b>quitDriver</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>0</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='loginFeature.CorrectLogin.quitDriver()'><b>quitDriver</b><br>Test class: loginFeature.CorrectLogin</td>
+<td></td>
+<td>0</td>
+<td>loginFeature.CorrectLogin@49ec71f8</td></tr>
+<tr>
+<td title='loginFeature.IncorrectPassword.quitDriver()'><b>quitDriver</b><br>Test class: loginFeature.IncorrectPassword</td>
+<td></td>
+<td>0</td>
+<td>loginFeature.IncorrectPassword@1d2adfbe</td></tr>
+<tr>
+<td title='loginFeature.IncorrectEmail.quitDriver()'><b>quitDriver</b><br>Test class: loginFeature.IncorrectEmail</td>
+<td></td>
+<td>0</td>
+<td>loginFeature.IncorrectEmail@36902638</td></tr>
+<tr>
+<td title='registration.CorrectRegister.setUpDriver()'><b>setUpDriver</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>11</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='loginFeature.CorrectLogin.setUpDriver()'><b>setUpDriver</b><br>Test class: loginFeature.CorrectLogin</td>
+<td></td>
+<td>11</td>
+<td>loginFeature.CorrectLogin@49ec71f8</td></tr>
+<tr>
+<td title='loginFeature.IncorrectEmail.setUpDriver()'><b>setUpDriver</b><br>Test class: loginFeature.IncorrectEmail</td>
+<td></td>
+<td>11</td>
+<td>loginFeature.IncorrectEmail@36902638</td></tr>
+<tr>
+<td title='loginFeature.IncorrectPassword.setUpDriver1()'><b>setUpDriver1</b><br>Test class: loginFeature.IncorrectPassword</td>
+<td></td>
+<td>11</td>
+<td>loginFeature.IncorrectPassword@1d2adfbe</td></tr>
+<tr>
+<td title='registration.CorrectRegister.userClicksTeacherProfile()'><b>userClicksTeacherProfile</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>15</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='registration.CorrectRegister.userFillsInteresForm()'><b>userFillsInteresForm</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>2</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='registration.CorrectRegister.userFillsPersonalInformation()'><b>userFillsPersonalInformation</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>5</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+<tr>
+<td title='registration.CorrectRegister.userFillsWelcomeForm()'><b>userFillsWelcomeForm</b><br>Test class: registration.CorrectRegister</td>
+<td></td>
+<td>1</td>
+<td>registration.CorrectRegister@16d04d3d</td></tr>
+</table><p>
+</body>
+</html>

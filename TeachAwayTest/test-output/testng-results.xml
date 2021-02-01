@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-01T15:38:54 CET" name="Suite" finished-at="2021-02-01T15:39:24 CET" duration-ms="30250">
+    <groups>
+    </groups>
+    <test started-at="2021-02-01T15:38:54 CET" name="Test" finished-at="2021-02-01T15:39:24 CET" duration-ms="30250">
+      <class name="megaMenu.Menu">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:megaMenu.Menu@52bf72b5]" started-at="2021-02-01T15:38:54 CET" name="launchBrowser" finished-at="2021-02-01T15:39:08 CET" duration-ms="13980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="eleminateCookies()[pri:1, instance:megaMenu.Menu@52bf72b5]" started-at="2021-02-01T15:39:08 CET" name="eleminateCookies" finished-at="2021-02-01T15:39:13 CET" duration-ms="5117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eleminateCookies -->
+        <test-method signature="checkMegaMenu()[pri:2, instance:megaMenu.Menu@52bf72b5]" started-at="2021-02-01T15:39:13 CET" name="checkMegaMenu" finished-at="2021-02-01T15:39:14 CET" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMegaMenu -->
+        <test-method signature="checkTeflMenu()[pri:3, instance:megaMenu.Menu@52bf72b5]" started-at="2021-02-01T15:39:14 CET" name="checkTeflMenu" finished-at="2021-02-01T15:39:14 CET" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTeflMenu -->
+        <test-method signature="checkSubMenuTeflCertifications()[pri:4, instance:megaMenu.Menu@52bf72b5]" started-at="2021-02-01T15:39:14 CET" name="checkSubMenuTeflCertifications" finished-at="2021-02-01T15:39:18 CET" duration-ms="3847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSubMenuTeflCertifications -->
+        <test-method signature="checkCoursesMenu()[pri:5, instance:megaMenu.Menu@52bf72b5]" started-at="2021-02-01T15:39:18 CET" name="checkCoursesMenu" finished-at="2021-02-01T15:39:24 CET" duration-ms="5920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCoursesMenu -->
+        <test-method signature="quitDriver()[pri:7, instance:megaMenu.Menu@52bf72b5]" started-at="2021-02-01T15:39:24 CET" name="quitDriver" finished-at="2021-02-01T15:39:24 CET" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- megaMenu.Menu -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
